@@ -1,0 +1,14 @@
+function Signup() {
+  return (
+    <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
+      <div className="bg-gray-800 p-8 rounded-xl w-full max-w-md flex flex-col gap-4">
+        <h2 className="text-2xl font-bold">Create Account</h2>
+        <input type="email" placeholder="Email" className="bg-gray-700 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500" />
+        <input type="password" placeholder="Password" className="bg-gray-700 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500" />
+        <button className="bg-blue-600 hover:bg-blue-700 py-3 rounded-lg font-medium">Sign Up</button>
+        <p className="text-gray-400 text-sm text-center">Have an account? <a href="/login" className="text-blue-400">Login</a></p>
+      </div>
+    </div>
+  )
+}
+export default Signup

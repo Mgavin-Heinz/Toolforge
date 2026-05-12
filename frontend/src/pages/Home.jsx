@@ -1,0 +1,13 @@
+function Home() {
+  return (
+    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center gap-6">
+      <h1 className="text-5xl font-bold">Toolforge 🔧</h1>
+      <p className="text-gray-400 text-xl">AI-powered tools for everyone</p>
+      <div className="flex gap-4">
+        <a href="/signup" className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-medium">Get Started</a>
+        <a href="/login" className="border border-gray-600 hover:border-gray-400 px-6 py-3 rounded-lg font-medium">Login</a>
+      </div>
+    </div>
+  )
+}
+export default Home
